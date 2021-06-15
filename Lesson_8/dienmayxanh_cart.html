@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Giỏ hàng Điện Máy Xanh</title>
+	<style>
+		select{
+			width: 255px;
+			height: 40px;
+
+		}
+		td{
+			border: none;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body style="background: #f0f0f0; font-family: sans-serif; font-size: 14px;">
+	<table style="width: 600px; border-collapse: collapse; background: #ffffff;" border="1" align="center">
+		<form action="#">
+			<tr style="height: 15%; border: solid 1px #D4D3D3;" valign="top">
+				<td width="100" style="text-align: center;"><img src="10.jpg" alt="cart"><br><a href="#">Xóa</a></td>
+				<td width="400"><a href="#">Smart Tivi LG 4K 55 inch 55U7290PTF</a><br><br>
+					<a href="#" style="text-decoration: none;">3 khuyến mãi</a>
+					<p>Màu: đen</p>
+				</td>
+				<td width="100" align="right">
+					<span style="color:#FF072A">12.660.000<sup><u>đ</u></sup></span><br>
+					<span style="text-decoration: line-through;">17.400.000</span><br>
+					<input type="submit" value="-">
+					<input type="number" style="width: 30px;">
+					<input type="submit" value="+">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left" style="border: solid 1px #D4D3D3; border-right: none;">
+					<span style="color: #8F7DFF">Sử dụng mã giảm giá</span><br>
+					<p valign="bottom">Tạm tính (1 sản phẩm) <br>
+						<b>Tổng tiền:</b></p>
+				</td>
+				<!-- <td>2</td> -->
+				<td align="right" valign="bottom" style="border-bottom:solid 1px #D4D3D3; border-right:solid 1px #D4D3D3">12.660.000 <sup><u>đ</u></sup>
+				<span style="color:#FF072A;">12.660.000 <sup><u>đ</u></sup></span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="border: solid 1px #D4D3D3;">
+					
+						THÔNG TIN KHÁCH HÀNG <br><br>
+						<input type="radio" name="gen" id="anh"><label for="anh">Anh</label>
+						<input type="radio" name="gen" id="chi"><label for="chi">Chị</label><br><br>
+						<input type="text" value="Họ và tên">
+						<input type="text" value="Số điện thoại"><br><br>
+						CHỌN CÁCH THỨC NHẬN HÀNG <br><br>
+						<input type="radio" name="delivery" id="gtn"><label for="gtn">Giao tận nơi</label>
+						<input type="radio" name="delivery" id="ntn"><label for="ntn">Nhận tại siêu thị</label><br><br>
+					<fieldset style="border: solid 1px #CCC7C7; background: #F8B2FE; ">
+								Chọn địa chỉ để biết thời gian nhận hàng và phí vận chuyển (nếu có) <br><br>
+								<select name="dia_chi" id="">
+									<option value="Hồ Chí Minh">Hồ Chí Minh</option>
+									<option value="Hà Nội">Hà Nội</option>
+								</select>
+								<select name="dia_chi" id="">
+									<option value="Chọn Quận/Huyện">Chọn Quận/Huyện</option>
+									<option value="Bình Thạnh">Bình Thạnh</option>
+								</select><br><br>
+								<select name="dia_chi" id="">
+									<option value="Chọn Phường/Xã">Chọn Phường/Xã</option>
+									<option value="11">11</option>
+								</select>
+								<input type="text" placeholder="Số nhà, tên đường" style="width: 250px; height: 35px;">
+						
+					</fieldset> <br>
+
+					<textarea name="" id="" maxlength="100" placeholder="Yêu cầu khác (không bắt buộc)" style="width: 80%;"></textarea><br><br>
+					<input type="checkbox">Gọi người khác nhận hàng (nếu có)
+					<br>
+					<input type="checkbox">Xuất hóa đơn công ty
+				</td>
+			</tr>
+			<tr style="padding: 10px; border-left: solid 1px #D4D3D3; border-right: solid 1px #D4D3D3;">
+				<td colspan="2">Tổng tiền</td>
+				<!-- <td>2</td> -->
+				<td align="right" style="color:#FF072A ">12.660.000<sup><u>đ</u></sup></td>
+			</tr>
+			<tr style="border-left: solid 1px #D4D3D3; border-right: solid 1px #D4D3D3; border-bottom:solid 1px #D4D3D3">
+				<td colspan="3"  style="padding: 10px; ">
+					<input type="submit" style="background: #F99771; color: #FFFFFF; width: 100%; height: 40px;" value="ĐẶT HÀNG"><br><br>
+					<p style="text-align: center;">Bạn có thể chọn hình thức thanh toán sau khi đặt hàng</p>
+				</td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>
