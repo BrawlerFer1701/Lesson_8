@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey</title>
+	<style type="text/css">
+		body{
+			font-size: 14px;
+			font-family: sans-serif;
+			background: #F6E4F9;
+		}
+		p{
+			font-size: 16px;
+		}
+		table{
+			width: 80%;
+
+		}
+		td{
+			text-align: left;
+			border: solid 1px #CFC3C3;
+			border-radius: 5px;
+			background: white;
+			padding: 20px;
+			
+		}
+		th{
+			font-size: 32px;
+			text-align: center;
+			padding-top: 0;
+			padding-bottom: 20px;
+			border: solid 1px #CFC3C3;
+			border-radius: 5px;
+			background: white;
+		}
+		input[type=submit]{
+			border: none;
+			border-radius: 5px;
+			width: 70px;
+			height: 35px;
+			padding:  0px 24px;
+			background: #CF34F0;
+			color: white;
+		}
+		input[type=text]{
+			border: none;
+		}
+		input[type=radio], input[type=checkbox]{
+			margin-right: 10px;
+		}
+		.heading{
+			width: 100%;
+			margin: 0 0 10px 0;
+			padding: 0;
+			background-color: #CE23D0;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<table align="center">
+
+		<tr>
+			
+			<th>
+			<p class="heading">&nbsp;</p>
+			<span style="margin-top: 10px;">Khảo sát cảm nhận về lớp học BW2105R1</span></th>
+		</tr>
+		<tr>
+			<td>
+				<p>1/ Cảm nhận của bạn thế nào?</p>
+				<input type="radio" name="cam_nhan" id="thich"> <label for="thich"> Thích</label><br><br>
+				<input type="radio" name="cam_nhan" id="buon"> <label for="buon"> Buồn</label><br><br>
+				<input type="radio" name="cam_nhan" id="chan"> <label for="chan"> Chán</label>
+			</td>			
+		</tr>
+		<tr>
+			<td>
+				<p>2/ Tốc độ của lớp học?</p>
+				<input type="radio" name="toc_do" id="nhanh"> <label for="nhanh"> Nhanh</label><br><br>
+				<input type="radio" name="toc_do" id="binh_thuong"> <label for="binh_thuong">Bình thường</label><br><br>
+				<input type="radio" name="toc_do" id="cham"> <label for="cham">Chậm</label><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>3/ Nội dung kiến thức?</p>
+				<input type="radio" name="noi_dung" id="kho"><label for="kho">Khó</label><br><br>
+				<input type="radio" name="noi_dung" id="bt"><label for="bt">Bình thường</label><br><br>
+				<input type="radio" name="noi_dung" id="de"><label for="de">Dễ</label><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>4/ Điều gì cần cải tiến nhiều nhất từ phía giảng viên?</p>
+				<input type="text" placeholder="Câu trả lời của bạn">
+				<hr style="margin-top: 10px; margin-bottom: 5px;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>5/ Điều gì cần cải tiến nhiều nhất từ phía học viên?</p>
+				<input type="text" placeholder="Câu trả lời của bạn">
+				<hr style="margin-top: 10px; margin-bottom: 5px;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>6/ Bạn muốn học thêm ngôn ngữ gì?</p>
+				<input type="checkbox" id="php"><label for="php">PHP</label><br><br>
+				<input type="checkbox" id="jv"><label for="jv">Java</label><br><br>
+				<input type="checkbox" id="python"><label for="python">Python</label><br><br>
+				<input type="checkbox" id="c"><label for="c">C#</label><br><br>
+			</td>
+		</tr>
+		<tr >
+			<td style="border: none; background: #F6E4F9; padding-top: 10px;padding-left: 0;">
+				<input type="submit" value="Gửi" ><br>
+				<p style="font-size: 10px; color: #9E9898;">Không bao giờ gửi mật khẩu qua Google biểu mẫu</p>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
